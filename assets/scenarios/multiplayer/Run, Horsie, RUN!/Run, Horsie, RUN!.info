@@ -1,0 +1,261 @@
+HeaderInfo =  
+{
+	ScenarioDescription = "Get your Horsie to the safety of the island",
+	ScenarioDescriptionlong = "Get your Horsie to the safety of the island        https://github.com/speige/AoE4_RunHorsieRun        https://youtube.com/@ai-gamer",
+	audio_river_detection_enabled = true,
+	mapsize =  
+	{
+		416,
+		416,
+	},
+	point_positions =  
+	{
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1000,
+			x = -51.13033,
+			y = -7.49718,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1001,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1002,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1003,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1004,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1005,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1006,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1007,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1008,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1009,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1010,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1011,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1012,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1013,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1014,
+			x = -72.84270,
+			y = -30.72042,
+		},
+		 
+		{
+			ebp_name = "starting_position_no_town_center",
+			owner_id = 1015,
+			x = -72.84270,
+			y = -30.72042,
+		},
+	},
+	scenario_type = 1,
+	scenarioabbrname = "RHR",
+	scenarioname = "Run, Horsie, RUN!",
+	slots =  
+	{
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			flags = 4294967229,
+			race = "english",
+			status = 0,
+			team = 0,
+		},
+	},
+	tuning_pack_guid = "a91de5b8afc5459989f33abb749c77c7",
+	version = 3002,
+	visible_in_lobby = true,
+	win_condition = "00000000000000000000000000000000:1369895226",
+	win_condition_options =  
+	{
+		section_starting_conditions =  
+		{
+			option_fow = 2,
+		},
+	},
+	win_conditions =  
+	{
+		"00000000000000000000000000000000:1369895226",
+	},
+	worldbp = "default",
+}
+

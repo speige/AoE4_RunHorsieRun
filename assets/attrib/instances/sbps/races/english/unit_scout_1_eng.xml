@@ -1,0 +1,36 @@
+<instance version="4" description="English Dark Age Scout" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1499754086" List.ParentItemID="-1499754086">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-2060525959" List.ParentItemID="-2060525959">
+					<instance_reference name="type" value="ebps\races\english\units\unit_scout_1_eng" mod="a91de5b8afc5459989f33abb749c77c7" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_attention_ext" List.ItemID="686782623" List.ParentItemID="686782623">
+			<float name="last_seen_reset_delay_secs" value="10" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-635621643" List.ParentItemID="-635621643">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="1723848487" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1339130972" List.ParentItemID="1339130972">
+			<group name="squad_speech_parameters">
+				<string name="squad_class_code" value="military" overrideParent="True" />
+				<string name="squad_name_code" value="scout" overrideParent="True" />
+				<string name="squad_unit_code" value="non_mounted" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="665401286" List.ParentItemID="665401286">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="166412" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_scout_1" />
+</instance>

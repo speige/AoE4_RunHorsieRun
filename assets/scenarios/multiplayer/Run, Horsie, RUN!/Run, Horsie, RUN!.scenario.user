@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScenarioUserSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Essence.Editor.ScenarioEditor.Controls">
+	<CameraSettings xmlns:d2p1="http://schemas.datacontract.org/2004/07/Essence.Editor.Bridge.Scenario">
+		<d2p1:SelectedCamera>Tool</d2p1:SelectedCamera>
+		<d2p1:SerializedData>UmVsaWMgQ2h1bmt5DQoaAAQAAAABAAAARk9MRENTQkS4CwAAqQEAAAAAAABGT0xEQ1NCU7gLAAAtAQAAAAAAAERBVEFEQVRBuAsAABAAAAAAAAAADAAAAGRlZmF1bHRfdG9vbEZPTERDU0JDuAsAAL0AAAAAAAAAREFUQURBVEG4CwAAIQAAAAAAAAAdAAAAZGVmYXVsdF9hdXRvZGVjbGluYXRlX2NsYXNzaWNGT0xEQ0VDTbgLAAA0AAAAAAAAAEZPTERGTENNuQsAACAAAAAAAAAAREFUQURBVEG5CwAADAAAAAAAAAAAAAAAAAAAAAAAAABGT0xEQ0VDTbgLAAAsAAAAAAAAAEZPTERGVENNuQsAABgAAAAAAAAAREFUQVRBUke5CwAABAAAAAAAAAAAAAAARk9MRENTQkO4CwAAJAAAAAAAAABEQVRBREFUQbgLAAAQAAAAAAAAAAwAAABkZWZhdWx0X3Rvb2xEQVRBQ0FNRLgLAABUAAAAAAAAADpepsFA6IJCoYeEwlRLkUGa2JRBk0G0wVRLkUFnpZVBk0G0wdq61D7/6Uc/683uPqTBYT8dXZ4+O/GrPnU68b078as+dzrxvaTBYb8dXZ6+AAAgQg==</d2p1:SerializedData>
+	</CameraSettings>
+	<DefaultParentLayer>run, horsie, run!</DefaultParentLayer>
+	<GeneratorSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<d2p1:KeyValueOfstringGeneratorSettings_PDn_PAR3E>
+			<d2p1:Key>Random Scenario</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://schemas.datacontract.org/2004/07/Essence.Editor.Bridge.Scenario.Generators" i:type="d4p1:ScenarioGeneratorSettings">
+				<d4p1:AutoIncrementRandomSeed>false</d4p1:AutoIncrementRandomSeed>
+				<d4p1:Biome>coastal_western</d4p1:Biome>
+				<d4p1:ClearDefaultParent>true</d4p1:ClearDefaultParent>
+				<d4p1:CustomLayout>terrainLayoutResult =  
+{
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_med_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_player_start_classic_plains",
+		},
+		 
+		{
+			terrainType = "tt_player_start_classic_plains",
+		},
+		 
+		{
+			terrainType = "tt_player_start_classic_plains",
+		},
+		 
+		{
+			terrainType = "tt_player_start_classic_plains",
+		},
+		 
+		{
+			terrainType = "tt_player_start_classic_plains",
+		},
+		 
+		{
+			terrainType = "tt_plains",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_settlement_plains",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_plains",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_settlement_plains",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_plains",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_settlement_plains",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_plains",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_settlement_plains",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_plains",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_mountains",
+		},
+		 
+		{
+			terrainType = "tt_lake_shallow",
+		},
+		 
+		{
+			terrainType = "tt_plains",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_plateau_low",
+		},
+		 
+		{
+			terrainType = "tt_plateau_med",
+		},
+		 
+		{
+			terrainType = "tt_plateau_med",
+		},
+		 
+		{
+			terrainType = "tt_plateau_med",
+		},
+		 
+		{
+			terrainType = "tt_plateau_med",
+		},
+		 
+		{
+			terrainType = "tt_plateau_med",
+		},
+		 
+		{
+			terrainType = "tt_plateau_med",
+		},
+		 
+		{
+			terrainType = "tt_plateau_med",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_impasse_trees_plains_forest",
+		},
+		 
+		{
+			terrainType = "tt_hills_low_rolling",
+		},
+	},
+	 
+	{
+		 
+		{
+			playerIndex = 0,
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+		 
+		{
+			terrainType = "tt_hills_gentle_rolling",
+		},
+	},
+}
+
+</d4p1:CustomLayout>
+				<d4p1:DefaultLayerName>generated</d4p1:DefaultLayerName>
+				<d4p1:DistributeObjects>true</d4p1:DistributeObjects>
+				<d4p1:GenerateAtmosphere>false</d4p1:GenerateAtmosphere>
+				<d4p1:GenerateAudioRegions>true</d4p1:GenerateAudioRegions>
+				<d4p1:GenerateCameraMesh>true</d4p1:GenerateCameraMesh>
+				<d4p1:GenerateDistributionCategories>
+					<Biome xmlns:d6p1="http://www.w3.org/2001/XMLSchema" i:type="d6p1:string" xmlns="">coastal_western</Biome>
+					<Values i:type="d2p1:ArrayOfKeyValueOfstringboolean" xmlns="">
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>gaia</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>resources</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>deco_other</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>deco_rocks</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>deco_foliage</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>trees_dense</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>trees_dense_small</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>trees_loose</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>trees_stealth</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+						<d2p1:KeyValueOfstringboolean>
+							<d2p1:Key>trees_stealth_small</d2p1:Key>
+							<d2p1:Value>true</d2p1:Value>
+						</d2p1:KeyValueOfstringboolean>
+					</Values>
+				</d4p1:GenerateDistributionCategories>
+				<d4p1:GenerateGrass>true</d4p1:GenerateGrass>
+				<d4p1:GenerateHeightMap>true</d4p1:GenerateHeightMap>
+				<d4p1:GenerateMapBorderDecorations>true</d4p1:GenerateMapBorderDecorations>
+				<d4p1:GenerateMarkers>true</d4p1:GenerateMarkers>
+				<d4p1:GenerateTiles>true</d4p1:GenerateTiles>
+				<d4p1:GenerateWaterFlowMap>true</d4p1:GenerateWaterFlowMap>
+				<d4p1:GenerateWaterHeightMap>true</d4p1:GenerateWaterHeightMap>
+				<d4p1:GenerateWaterTileMap>true</d4p1:GenerateWaterTileMap>
+				<d4p1:Layout>ugc_sample_1</d4p1:Layout>
+				<d4p1:RandomSeed i:nil="true" />
+				<d4p1:Size>map_size_416</d4p1:Size>
+				<d4p1:StartingPositionCount>1</d4p1:StartingPositionCount>
+				<d4p1:WinCondition i:nil="true" />
+				<d4p1:WinConditionOptions xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" i:nil="true" />
+			</d2p1:Value>
+		</d2p1:KeyValueOfstringGeneratorSettings_PDn_PAR3E>
+	</GeneratorSettings>
+</ScenarioUserSettings>

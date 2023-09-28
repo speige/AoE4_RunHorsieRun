@@ -1,0 +1,28 @@
+<DataWarehouse>
+	<!--Run, Horsie, RUN!/-->
+	<DataObject Name="Run, Horsie, RUN!" Type="Mod" Id="4439330845106366208" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">14409647527729011076</DataValue>
+			<!--Run, Horsie, RUN!/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="14409647527729011076" OwnerId="4439330845106366208">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="3141202825"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="3346504820"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="2837308856"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1167699909"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">13014577887990643518</DataValue>
+			<!--Run, Horsie, RUN!/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="13014577887990643518" OwnerId="4439330845106366208">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="3141202825"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="3346504820"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="2837308856"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1167699909"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>
+
