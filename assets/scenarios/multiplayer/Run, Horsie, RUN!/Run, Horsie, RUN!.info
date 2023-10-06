@@ -1,7 +1,7 @@
 HeaderInfo =  
 {
 	ScenarioDescription = "Get your Horsie to the safety of the island",
-	ScenarioDescriptionlong = "Get your Horsie to the safety of the island        https://github.com/speige/AoE4_RunHorsieRun        https://youtube.com/@ai-gamer",
+	ScenarioDescriptionlong = "Get your Horsie to the safety of the island        https://youtube.com/@ai-gamer",
 	audio_river_detection_enabled = true,
 	mapsize =  
 	{
