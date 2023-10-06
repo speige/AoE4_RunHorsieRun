@@ -36,17 +36,19 @@ function Scout_Died(data)
 	for i = 1, count do
 		local dead = SGroup_GetDeSpawnedSquadAt(horsies, i)
 		SGroup_Remove(horsies, dead)
-
-		local new_horsie = SGroup_CreateIfNotFound("new_horsie")
-		SGroup_Clear(new_horsie)
-
-		local blueprint = BP_GetSquadBlueprint("unit_scout_1_eng")
-		UnitEntry_DeploySquads(Squad_GetPlayerOwner(dead), new_horsie, { { sbp=blueprint, num_squads=1 } }, Respawn)		
 		
-		SGroup_Add(horsies, SGroup_GetSpawnedSquadAt(new_horsie, 1))
-
-		if Game_GetLocalPlayer() == Squad_GetPlayerOwner(dead) then
-			Camera_MoveTo(Respawn, true, 50, false, false)
+		if not World_OwnsSquad(dead) then
+			local new_horsie = SGroup_CreateIfNotFound("new_horsie")
+			SGroup_Clear(new_horsie)
+	
+			local blueprint = BP_GetSquadBlueprint("unit_scout_1_eng")
+			UnitEntry_DeploySquads(Squad_GetPlayerOwner(dead), new_horsie, { { sbp=blueprint, num_squads=1 } }, Respawn)		
+			
+			SGroup_Add(horsies, SGroup_GetSpawnedSquadAt(new_horsie, 1))
+	
+			if Game_GetLocalPlayer() == Squad_GetPlayerOwner(dead) then
+				Camera_MoveTo(Respawn, true, 50, false, false)
+			end
 		end
 	end
 	
